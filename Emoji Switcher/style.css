@@ -1,0 +1,28 @@
+
+    body {
+        background-color: #1b1b1b;
+    }
+
+    #btn-wrap {
+        text-align: center;
+        margin: 400px auto;
+    }
+
+    button#emoji-btn {
+        border: none;
+        background: #404040;
+        padding: 20px;
+        border-radius: 6px;
+        transition: all 0.3s ease 0s;
+        align-items: center;
+        font-size: 2rem;
+        filter: grayscale(2);
+
+    }
+
+    button#emoji-btn:hover {
+        background-color: #d8d8d8 !important;
+        transition: all 0.3s ease 0s;
+        transform: scale(1.3);
+        filter: grayscale(0);
+    }
